@@ -1,20 +1,21 @@
 # Ex.No: 5 check the given number is array through binary search and inspect for failures.
 ### DATE: 27-09-2024
-### REGISTER NUMBER : 212221040009
+### REGISTER NUMBER : 212221040119
 ### AIM: 
-Write a python program to check the number is Armstrong number or not and inspect for failures.
+Write a python program for binary search and inspect for failures.
 
 ### Algorithm:
 
-1.  Start the program.
-2.	Read an integer input number.
-3.	Initialize the variables current_digit, sum = 0, and num = number.
-4.	Repeat Steps 5 to 7 until num > 0
-5.	current_digit = (num % 10).
-6.	sum = sum + (current_digit * current_digit * current_digit). 7. Stop the program.
-7.	num = num / 10.
-8.	Check if sum == number. If true, print "It is an Armstrong Number." Otherwise, print "It is not an Armstrong Number."
-9.	Stop the program.
+1. Input: A sorted list arr and a target element to search for.
+2. Initialize:
+3. Set left to the start index (0).
+4. Set right to the end index (len(arr) - 1).
+5. Loop while left is less than or equal to right:
+6. Calculate the midpoint mid as (left + right) // 2.
+7. If arr[mid] equals target, return the index mid.
+8. If arr[mid] is less than target, set left to mid + 1.
+9. If arr[mid] is greater than target, set right to mid - 1.
+10. Return "not found" if the target is not in the list.
 
 ### Program:
 ```
@@ -48,18 +49,6 @@ try:
 except:
     print("Enter a valid input!")
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 ### Output:
 ![image](https://github.com/user-attachments/assets/e784bd03-2d42-435e-8832-cb53721c498e)
 
