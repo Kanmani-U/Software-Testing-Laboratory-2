@@ -1,18 +1,19 @@
 # Ex.No: 7 Sorting.
 
 ### DATE: 24/09/2024                                                                          
-### REGISTER NUMBER :  212221040009
+### REGISTER NUMBER :  212221040119
 ### AIM: 
 Write a python program for sorting and inspect for failures.
 
 ### Algorithm:
-1. Start
-2. Get an input from the user by prompting
-3. Run a loop form 0 to len/2.
-4. Check if the characters are the same both from the start and the end till len/2.
-5. If it is, return the result that it is a palindrome.
-6. Else, return that it is not a palindrome.
-7. Stop the program
+```
+1.start the program.
+2.Get the number of elements from user.
+3.Get the elements to be sorted.
+4.Traverse the array and sort the element one by one.
+5.print the sorted array.
+6.Stop the program.
+```
 
 ### Program:
 ```
