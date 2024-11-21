@@ -1,6 +1,6 @@
 # Ex.No: 8  ATM Application
 ### DATE: 4-10-24                                                                           
-### REGISTER NUMBER : 212221040009
+### REGISTER NUMBER : 212221040119
 ### AIM: 
 For ATM system study its system specifications and report various bugs
 ### Purpose:
@@ -146,6 +146,7 @@ Users accessibility is censured in all the ways
 
 
 ### Possible Bugs:
+```
 1.Successful insertion of ATM card
 2.Unsuccessful operation due to insert card in wrong angle
 3.Unsuccessful operation due to invalid account Ex: other bank card or time expired card
@@ -171,9 +172,7 @@ Users accessibility is censured in all the ways
 22.unsuccessful withdrawal operation due to click cancel after insert card, pin number, language, account type, withdrawal 
    operation &amount to be withdraw
 
-
-
-
+```
 ### Result:
 Thus, the ATM system specifications and reporting the various bugs is implemented and output was verified successfully
 
