@@ -3,7 +3,7 @@
 ### DATE: 06-09-2024                                                                          
 ### REGISTER NUMBER : 212221040119
 
-### AIM:  
+### AIM:   
 To write python programs for do…while, while, for, switch and if…else and test with possible test 
 Cases 
 
